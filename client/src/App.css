@@ -1,0 +1,111 @@
+main{
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 445px 75%; 
+}
+
+.container{
+  min-width: 455px;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container h1{
+  width: 400px;
+}
+
+.form-controller{
+  display: grid;
+  grid-template-rows: 50px 50px 50px;
+}
+
+.attention{
+  background-color: white;
+}
+
+form {
+  display: grid;
+  place-items: center;
+
+}
+
+form label{
+  display: flex;
+  align-items: center;
+}
+
+form input{
+ margin-bottom: 5px;
+}
+
+form button{
+  margin-bottom: 5px;
+  background-color: blue;
+  color: #fff;
+}
+
+form .error{
+  color: #f00;
+}
+
+.testimonial{
+  width: 80%;
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  background-color: rgba(0,0,0,0.5);
+  justify-content: space-between;
+  position: relative;
+  bottom: 0;
+}
+
+.testimonial .review {
+  padding-left: 10px;
+}
+
+.testimonial .review p{
+  margin:0;
+}
+
+.testimonial .author h3{
+  line-height: 10px;
+}
+
+.testimonial .author p{
+  line-height: 10px;
+}
+
+.list-container{
+  position: relative;
+}
+
+.list-numbers{
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: space-between;
+}
+
+.go-back{
+  position: absolute;
+  bottom: 2em;
+  left: 1em
+}
+
+.box{
+ width: min-content;
+ height: 50px;
+ padding: 0 10px;
+ background-color: #e4e4e4;
+ display: grid;
+ place-items: center;
+ border: 5px solid white;
+}
+
+
